@@ -1,6 +1,6 @@
 # Make a Medical Team with Medic
 
-This project was bootstrapped with [Create React App](https://github.com/ProgrammingHeroWC4/the-superhero-direction-jumpetron).
+This project is made by bootstrap and react [Medic](https://mediic.netlify.app/)
 
 <ul>
     <li>Provide the finest customer friendly service among the medical science.</li>
