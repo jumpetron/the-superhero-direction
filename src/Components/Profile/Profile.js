@@ -3,7 +3,6 @@ import './Profile.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faUserPlus} from '@fortawesome/free-solid-svg-icons'
 
-
 const Profile = (props) => {
     const {name, age, salary, picture, country, department} = props.profile
     const userIcon = <FontAwesomeIcon icon={faUserPlus} />
