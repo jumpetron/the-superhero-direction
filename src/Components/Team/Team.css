@@ -1,23 +1,111 @@
-.team-container{
-    width: 70%;
-    display: grid;
-    grid-template-columns: 3fr 1fr;
-    margin: auto;
-}
-
 .profile-container{
+    width: 100%;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 2fr);
     grid-gap: 5px;
 }
 
 .add-container{
-    height: 500px;
-    background-color: aqua;
+    position: relative;
+    margin-bottom: 80px;
+    width: 20%;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    height: 100px;
+    background-color: #FFEDDA;
     text-align: center;
     padding: 10px 20px;
     font-family: cursive;
     font-size: 20px;
     font-weight: 600;
+    border-radius: 10px;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) {
+.profile-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 5px;
+    }
+.add-container{
+    position: relative;
+    margin-bottom: 80px;
+    width: 90%;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    height: 100px;
+    background-color: #FFEDDA;
+    text-align: center;
+    padding: 10px 20px;
+    font-family: cursive;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 10px;
+}
+}
+@media only screen and (min-device-width : 567px) and (max-device-width : 767px){
+    .profile-container{
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    }
+.add-container{
+    position: relative;
+    margin-bottom: 80px;
+    width: 90%;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    height: 100px;
+    background-color: #FFEDDA;
+    text-align: center;
+    padding: 10px 20px;
+    font-family: cursive;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 10px;
+}
+}
+
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+.profile-container{
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5px;
+    }
+.add-container{
+    position: relative;
+    margin-bottom: 80px;
+    width: 70%;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    height: 100px;
+    background-color: #FFEDDA;
+    text-align: center;
+    padding: 10px 20px;
+    font-family: cursive;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 10px;
+}
+
 }
 

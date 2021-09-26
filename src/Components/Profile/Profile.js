@@ -5,26 +5,26 @@ import {faUserPlus} from '@fortawesome/free-solid-svg-icons'
 
 
 const Profile = (props) => {
-    const {name, age, salary, deg, picture, country, department} = props.profile
-    const element = <FontAwesomeIcon icon={faUserPlus} />
+    const {name, age, salary, picture, country, department} = props.profile
+    const userIcon = <FontAwesomeIcon icon={faUserPlus} />
     return (
         <div>
             <div className="card mt-5">
                 <div className="card-body profile">
-                    <div className="text-center profile-header">
+                    <div className="text-center profile-header mb-3">
                         <img src={picture} alt="" />
-                        <h5>Name: {name} <small className="fs-6">({deg})</small></h5>
                     </div>
                     <div>
+                        <h5>Name: {name}</h5>
                         <h6>Department: {department}</h6>
                         <p>Age: {age}</p>
                         <p>Country: {country}</p>
                         <p>Salary: ${salary}</p>
                     </div>
-                    <div className="text-center">
+                    <div className="text-center mt-3">
                         <button 
                         onClick = {() => props.handleAddToMember(props.profile)} 
-                        className="btn btn-primary m-3">{element} Make Team</button>
+                        className="btn m-3">{userIcon} Make Team</button>
                     </div>
                 </div>
             </div>

@@ -21,9 +21,12 @@ const Team = () => {
 
     return (
         <div>
-            <h3 className="team-title">Doctro's Profile</h3>
-            <div className="team-container">
-                <div className="profile-container">
+            <div>
+                <div className="add-container mt-2">
+                    <AddMember addMember={addMember}></AddMember>
+                </div>
+                <h3 className="team-title mt-5">Doctro's Profile</h3>
+                <div className="profile-container container">
                     {
                             profiles.map(profile => <Profile
                                 key={profile._id}  
@@ -31,9 +34,6 @@ const Team = () => {
                                 handleAddToMember = {handleAddToMember}
                                 ></Profile>)
                     }
-                </div>
-                <div className="add-container mt-5">
-                    <AddMember addMember={addMember}></AddMember>
                 </div>
             </div>
         </div>
