@@ -1,0 +1,23 @@
+.profile img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.profile-header {
+    height: 170px;
+}
+
+.card{
+    width: 300px;
+    height: 390px;
+}
+
+.team-title{
+    text-align: center;
+}
+
+.card-body p {
+    margin-top: 0;
+    margin-bottom: 0;
+}

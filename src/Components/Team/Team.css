@@ -1,0 +1,23 @@
+.team-container{
+    width: 70%;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    margin: auto;
+}
+
+.profile-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+}
+
+.add-container{
+    height: 500px;
+    background-color: aqua;
+    text-align: center;
+    padding: 10px 20px;
+    font-family: cursive;
+    font-size: 20px;
+    font-weight: 600;
+}
+

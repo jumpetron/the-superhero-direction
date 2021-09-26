@@ -1,0 +1,23 @@
+.hero-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.hero-img{
+    margin: 10px 30px;
+}
+
+.hero-heading{
+    padding: 10px 20px;
+    margin: 0 40px;
+}
+
+.hero-heading .btn{
+    background-color: #FFB830;
+;
+}
+
+.header img{
+    width: 180px;
+}
