@@ -1,6 +1,6 @@
 # Make a Medical Team with Medic
 
-This project is made by bootstrap and react Live site link :[Medic](https://mediic.netlify.app/)
+This project is made by bootstrap and react - Live site link :[Medic](https://mediic.netlify.app/)
 
 Benifits of the site is:
 <ul>
