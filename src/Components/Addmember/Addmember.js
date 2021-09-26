@@ -17,7 +17,7 @@ const AddMember = (props) => {
         <div>
             <p>{userIcon} Member Added: {props.addMember.length}</p>
             <p>Total Salary: ${total.toFixed(2)}</p>
-            <p>{show}</p>
+            <p>{show} </p>
         </div>
     );
 };
