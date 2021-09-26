@@ -7,10 +7,19 @@
 .btn{
     background-color: #FFB830;
 }
+.btn:hover{
+    box-shadow: 10px 10px 21px -7px rgba(0,0,0,0.75);
+    transition: 0.2s ease-in-out;
+}
 
 .card{
     width: 300px;
     height: 390px;
+}
+
+.card:hover{
+    box-shadow: 10px 10px 21px -7px rgba(0,0,0,0.75);
+    transition: 0.2s ease-in-out;
 }
 
 .team-title{
