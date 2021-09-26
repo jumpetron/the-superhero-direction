@@ -21,7 +21,7 @@ const AddMember = (props) => {
             <p>Total Salary: ${total.toFixed(2)}</p>
             {
                 show.length > 0 && show.map((item, i) => (
-                    <div>
+                    <div className="mt-5">
                         <img className="img-fluid rounded-circle" src={item.picture} alt="" />
                          <p key={i}>{item.name}</p>
                     </div>
